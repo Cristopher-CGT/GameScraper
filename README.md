@@ -10,11 +10,11 @@ Exemplo de resultado esperado:
 
 | Jogo | Plataforma | Loja | Preço | Link |
 | --- | --- | --- | ---: | --- |
-| Exemplo de jogo | PC - Steam | Steam | R$ 99,90 | Acessar |
-| Exemplo de jogo | PC - Epic Games Store | Epic Games Store | R$ 89,90 | Acessar |
-| Exemplo de jogo | PC - GOG | GOG | R$ 109,90 | Acessar |
-| Exemplo de jogo | PlayStation 5 | Loja B | R$ 149,90 | Acessar |
-| Exemplo de jogo | Xbox Series | Loja C | R$ 129,90 | Acessar |
+| Exemplo de jogo | PC - Steam | Steam | R$ 99,90 |
+| Exemplo de jogo | PC - Epic Games Store | Epic Games Store | R$ 89,90 |
+| Exemplo de jogo | PC - GOG | GOG | R$ 109,90 |
+| Exemplo de jogo | PlayStation 5 | Loja B | R$ 149,90 |
+| Exemplo de jogo | Xbox Series | Loja C | R$ 129,90 |
 
 ## Como funcionará
 
@@ -33,11 +33,10 @@ O processo de coleta deve respeitar os termos de uso, o `robots.txt`, os limites
 O projeto está em sua fase inicial. Atualmente, o repositório possui apenas a configuração básica de um projeto Node.js com módulos CommonJS. A stack planejada é:
 
 - **Node.js**: execução do scraper e da API.
-- **JavaScript**: linguagem principal do projeto.
-- **Axios** ou `fetch`: requisições HTTP para as fontes de dados.
+- **TypeScript**: linguagem principal do projeto.
 - **Cheerio**: leitura e extração de dados em páginas HTML, quando necessário.
 - **Express**: API para disponibilizar os jogos e os preços coletados.
-- **SQLite**: armazenamento local simples dos resultados e do histórico de preços.
+- **SQL**: armazenamento local simples dos resultados e do histórico de preços.
 - **React**: interface para busca, filtros e comparação entre plataformas.
 - **CSS**: estilização responsiva da interface.
 
@@ -87,7 +86,7 @@ Cada preço coletado deverá conter, no mínimo:
 
 ```text
 ScraperGames/
-├── src/
+├── api/
 │   ├── collectors/        # Coletores específicos de cada fonte
 │   ├── controllers/       # Controladores
 │   ├── services/          # Regras de negócio e normalização
