@@ -1,4 +1,8 @@
-node_modules
-dist/*
-REMEMBER.md
-TAREFAS-HOJE.md
+node_modules/
+**/node_modules/
+**/build/
+coverage/
+.env*
+!.env.example
+npm-debug.log*
+yarn-debug.log*
