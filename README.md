@@ -26,17 +26,16 @@ Na raiz do projeto, instale as dependências:
 
 ```bash
 npm install
+npm build
 ```
 
-Inicie API e interface em terminais separados:
+Inicie API:
 
 ```bash
 npm run start:api
-npm run start:web
 ```
 
-A API ficará disponível em `http://localhost:3300` e a interface em
-`http://localhost:3000`. No desenvolvimento, a interface encaminha as
+A API ficará disponível em `http://localhost:3300`. No desenvolvimento, a interface encaminha as
 requisições à API local. Para definir outra URL, configure
 `REACT_APP_API_URL` no ambiente da aplicação web.
 
