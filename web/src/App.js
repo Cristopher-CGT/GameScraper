@@ -84,7 +84,7 @@ function App() {
               <path d="M11 13.5v5m-2.5-2.5h5m8-1h.01m3 3h.01" />
             </svg>
           </span>
-          <span>game<span className="brand-accent">scout</span></span>
+          <span>Game<span className="brand-accent">Scraper</span></span>
         </a>
         <div className="topbar-note"><span className="status-dot" /> Preços em um só lugar</div>
       </header>
