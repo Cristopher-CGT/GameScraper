@@ -3,6 +3,7 @@
 O GameScraper reúne informações de preço de jogos em diferentes lojas e
 plataformas para facilitar a consulta em um só lugar. O projeto é dividido em
 uma API que busca os dados e uma aplicação web para pesquisar jogos.
+A plataforma está online em https://gamescraper-vc4c.onrender.com
 
 ## Como funciona
 
